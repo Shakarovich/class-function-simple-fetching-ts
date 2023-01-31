@@ -27,6 +27,7 @@ import Pagination from "./CustomPagination/MyPagination";
 
     return (
         <Fragment>
+            <span>Function Component</span>
             {isLoading && <h1>Loading...</h1>}
             {error && <h1>{'Something went wrong'}</h1> }
                <div>
